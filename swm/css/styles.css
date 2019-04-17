@@ -1,0 +1,93 @@
+.main-container {
+    padding: 10px;
+    background: #151413;
+    height: 100%;
+    font-family: fantasy;
+}
+
+header .title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    color: #e50a15;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.row-conatainer{
+	padding: 10px;
+}
+
+.row-name {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.card {
+    float: left;
+    padding: 8px;
+    margin: 5px;
+    background: #e6ecec;
+    border-radius: 5px;
+    height: 240px;
+    width: 300px;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.left-wrap {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg);
+   width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.right-wrap {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.rating {
+    font-weight: bold;
+}
+
+span.rating-value {
+    color: #45d369;
+}
+
+.user-id {
+    float: left;
+    height: 30px;
+    width: calc(100% - 30px);
+    color: #fff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.user-image {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.user-wrap {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    width: 150px;
+}
